@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+*{
+    margin:0;
+
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9 rem;
+
+
+}
+body
+{ display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
+.container > header{
+    min-width: 550 px;
+    border: 1px solid red;
+}
+
+.container > header > p {
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+.container > header > h1{
+font-size: 2rem;
+}
+.container > header > img{
+    width: 100%;
+    margin:0.5rem 0;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 10px;
+}
+section{
+    margin: 0.8rem;
+}
+section h2{
+    font-size:1.2rem ;
+}
+section p{
+    color: #444;
+    width: 100%;
+}
+.details{
+    background-color: #eee;
+    border-radius: 0.8rem;
+    padding:1rem;
+
+}
+.details > ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: lfr lfr;
+}
+form h2{
+    font-size: 1.5 rem;
+}
+form.two{
+    display: grid;
+    grid-template-columns: lfr lfr; 
+    gap: 1rem;
+}
+form .two > .one{
+    display: flex;
+    flex-direction: column;
+
+}
+.one > input{
+    padding: 0.5rem;
+    border-radius: 5 px;
+
+}
+.tac{
+    margin: 1rem 0;
+}
+.tac > a{
+    color: blueviolet
+}
+form button{
+    background-color: blueviolet;
+    color: #fff;
+    width: 100%;
+    font-family: Poppins;
+    border: 0;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    
+}
